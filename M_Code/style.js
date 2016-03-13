@@ -1,29 +1,29 @@
 $(window).load(function(){
-	var availHeight = $(window).height() - 20 + 'px';
+	var availHeight = $(window).height();
 	$("body").css("height",availHeight);
-	$('.Board').css("height",availHeight-5+'px');
 
+	/*答题区的背景图相对于body垂直居中*/
+	var img_height = $('.img_style').height();
+	var img_middle = (availHeight-img_height)/2+'px';
+	$('.img_style').css('margin-top',img_middle);
 
-	/*实现div垂直居中*/
-	var win = document.getElementById("Board_1");
-	var availHeight = document.documentElement.clientHeight;
-	var scrollTop = document.documentElement.scrollTop;
-	// var scrollLeft = document.documentElement.scrollLeft;
-	var height = win.offsetHeight;
-	var reTop = scrollTop + (availHeight - height) / 2;
-	with (win.style) {
-	top = reTop + "px";
-	}
-
-	/*实现半圆字体水平居中*/
-	var quartercircle_width = $('#quartercircle').width();
-	var span_width = $('.logo_style').width();
-	var center_width = (quartercircle_width - span_width)/2 + 'px';
-	$('.logo_style').css("margin-left",center_width);
-
+	/*答题区相对于body垂直居中*/
+	var Answer_area = $('.Answer_area').height();
+	var area_middle = (availHeight-Answer_area)/2+'px';
+	$('.Answer_area').css("margin-top",area_middle);
 });
 
 window.onresize=function(){
 	var availHeight = $(window).height();
 	$("body").css("height",availHeight);
+
+	/*答题区的背景图相对于body垂直居中*/
+	var img_height = $('.img_style').height();
+	var img_middle = (availHeight-img_height)/2+'px';
+	$('.img_style').css('margin-top',img_middle);
+
+	/*答题区相对于body垂直居中*/
+	var Answer_area = $('.Answer_area').height();
+	var area_middle = (availHeight-Answer_area)/2+'px';
+	$('.Answer_area').css("margin-top",area_middle);
 }  

@@ -11,43 +11,20 @@ body{
     padding-left: 15px;
     padding-right: 15px;
 }
-.Board{
-	/*background-color: #ddd;*/
-	background-image: url(1.png);
-	background-position: center center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    -moz-background-size:cover;
-    -webkit-background-size:cover;
+
+.img_style{
+	position: absolute;
 }
-.logo_style{
-	font-size: 50px;
-	margin-top: 50px;
-	/*margin-left: 22px;*/
-}
-#quartercircle {
-	width: 175px; 
-	height: 175px; 
-	background-color: #a5eefb; /* Can be set to transparent */ 
-	border: 6px #706f6f solid; 
-	-webkit-border-radius: 100px; 
-	margin-top: -200px;
-	margin-left: 65px;
-}
+
 /*按钮样式*/
 .btn_style{
 	font-family: 微软雅黑;
 	text-align: left;
 	background-color: transparent;
 	border-color: transparent;
-	/*color: #f2f1f1;
-  	background-color:transparent;
-  	border:1px solid #fff;
-	-webkit-transition:all 0.2s linear;
-	-moz-transition:all 0.2s linear;
-	-ms-transition:all 0.2s linear;
-	-o-transition:all 0.2s linear;
-	transition:all 0.2s linear;*/
 	margin-top: 5px;
-	/*height: 35px;*/
+}
+.btn_style:hover{
+	border: 1px solid #706f6f;
+	background-color: #a5eefb;
 }
