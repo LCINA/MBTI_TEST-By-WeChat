@@ -23,8 +23,18 @@ body{
 	background-color: transparent;
 	border-color: transparent;
 	margin-top: 5px;
+	-webkit-transition:all 0.5s linear;
+  	-moz-transition:all 0.5s linear;
+  	-ms-transition:all 0.5s linear;
+  	-o-transition:all 0.5s linear;
+  	transition:all 0.5s linear;
 }
 .btn_style:hover{
-	border: 1px solid #706f6f;
+	/*border: 1px solid #706f6f;*/
 	background-color: #a5eefb;
+	-webkit-transition:all 0.2s linear;
+  	-moz-transition:all 0.2s linear;
+  	-ms-transition:all 0.2s linear;
+  	-o-transition:all 0.2s linear;
+  	transition:all 0.2s linear;
 }

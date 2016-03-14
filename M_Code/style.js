@@ -11,6 +11,16 @@ $(window).load(function(){
 	var Answer_area = $('.Answer_area').height();
 	var area_middle = (availHeight-Answer_area)/2+'px';
 	$('.Answer_area').css("margin-top",area_middle);
+
+	$("#1 #A").click(function(){
+		$(this).parents("#1").hide("slow");
+		$('#2').show("6000");
+	});
+
+	$("#2 #A").click(function(){
+		$(this).parents("#2").hide("slow");
+		$('#3').show("6000");
+	});
 });
 
 window.onresize=function(){
