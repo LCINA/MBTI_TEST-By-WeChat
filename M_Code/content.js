@@ -109,7 +109,7 @@ question[22]="23.在第一次约会中："
 　　answer[22][0] = "（A）若你所约的人来迟了，你会很不高兴。"
 　　answer[22][1] = "（B）一点儿都不在乎，因为你自己常常迟到。"
 
-question[23]="24.你偏好：J"
+question[23]="24.你偏好："
 　　answer[23][0] = "（A）事先知道约会的行程：要去哪里、有谁参加、你会在那里多久、该如何打扮。"
 　　answer[23][1] = "（B）让约会自然地发生，不做太多事先的计划。"
 
@@ -229,12 +229,8 @@ function end()
 	}
 	else
 		four = "P";
-	// alert("E:"+e+"    I:"+i+"    N:"+n+"    S:"+s+"    F:"+f+"    T:"+t+"    J:"+j+"    P:"+p);
-	// $('#answer1').click(){
-
-	// 	alert(one+two+three+four);
-	// }
 	$('.result').show("6000");
-	$('.result').html("<div class='span_style col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12'>"+"您的输出类型为："+"<span style='color:red;'>"+one+two+three+four+"</span>"+"！详细说明请到本公众号回复您的类型！"+"</div>");
+	$('.result').html("<div class='span_style col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12'>"+"您的输出类型为："
+		+"<span style='color:red;'>"+one+two+three+four+"</span>"+"！详细说明请到本公众号回复您的类型！"+"</div>");
 	
 }
