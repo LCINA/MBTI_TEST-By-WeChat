@@ -229,8 +229,101 @@ function end()
 	}
 	else
 		four = "P";
-	$('.result').show("6000");
-	$('.result').html("<div class='span_style col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12'>"+"您的输出类型为："
-		+"<span style='color:red;'>"+one+two+three+four+"</span>"+"！详细说明请到本公众号回复您的类型！"+"</div>");
-	
+
+	if (one+two+three+four=="ISTJ") {
+		$('.result').show("6000");
+		$('.result').html("<div class='span_style col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12'>"+"您的性格类型为："
+		+"<span style='color:red;'>"+one+two+three+four+"(公务型)：内倾、感觉、思维和判断"+"</span>"+"<br/>"+"适宜职业：会计 侦探 教师 律师"+"<br/>"
+		+"想知道关于ENFJ(公务型)的更多内容，请关注黑鲸校园，输入："+"<span style='color:red;'>"+one+two+three+four+"</span>"+"，获取更多内容"+"</div>");
+	}
+	else if (one+two+three+four=="ISFJ") {
+		$('.result').show("6000");
+		$('.result').html("<div class='span_style col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12'>"+"您的性格类型为："
+		+"<span style='color:red;'>"+one+two+three+four+"(保护者)：内倾、感觉、情感和判断"+"</span>"+"<br/>"+"适宜职业：护士 幼师 律师助理 家政"+"<br/>"
+		+"想知道关于ISFJ(保护者)的更多内容，请关注黑鲸校园，输入："+"<span style='color:red;'>"+one+two+three+four+"</span>"+"，获取更多内容"+"</div>");
+	}
+	else if (one+two+three+four=="INFJ") {
+		$('.result').show("6000");
+		$('.result').html("<div class='span_style col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12'>"+"您的性格类型为："
+		+"<span style='color:red;'>"+one+two+three+four+"(创造者)：内倾、感觉、情感和判断"+"</span>"+"<br/>"+"适宜职业：作家 艺术顾问 社会学家 心理学家"+"<br/>"
+		+"想知道关于INFJ(创造者)的更多内容，请关注黑鲸校园，输入："+"<span style='color:red;'>"+one+two+three+four+"</span>"+"，获取更多内容"+"</div>");
+	}
+	else if (one+two+three+four=="INTJ") {
+		$('.result').show("6000");
+		$('.result').html("<div class='span_style col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12'>"+"您的性格类型为："
+		+"<span style='color:red;'>"+one+two+three+four+"(完美主义者)：内倾、直觉、思维和判断"+"</span>"+"<br/>"+"适宜职业：经济学家 企业家 医学专家 网络工程师"+"<br/>"
+		+"想知道关于INTJ(完美主义者)的更多内容，请关注黑鲸校园，输入："+"<span style='color:red;'>"+one+two+three+four+"</span>"+"，获取更多内容"+"</div>");
+	}
+	else if (one+two+three+four=="ISTP") {
+		$('.result').show("6000");
+		$('.result').html("<div class='span_style col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12'>"+"您的性格类型为："
+		+"<span style='color:red;'>"+one+two+three+four+"(巧匠型)：内倾、感觉、思维和知觉"+"</span>"+"<br/>"+"适宜职业：药剂师 计算机程序员 经济学者 雕塑家"+"<br/>"
+		+"想知道关于ISTP(巧匠型)的更多内容，请关注黑鲸校园，输入："+"<span style='color:red;'>"+one+two+three+four+"</span>"+"，获取更多内容"+"</div>");
+	}
+	else if (one+two+three+four=="ISFP") {
+		$('.result').show("6000");
+		$('.result').html("<div class='span_style col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12'>"+"您的性格类型为："
+		+"<span style='color:red;'>"+one+two+three+four+"(艺术家型)：内倾、感觉、情感和知觉"+"</span>"+"<br/>"+"适宜职业：时装设计 舞蹈员 美容师 演员"+"<br/>"
+		+"想知道关于ISFP(艺术家型)的更多内容，请关注黑鲸校园，输入："+"<span style='color:red;'>"+one+two+three+four+"</span>"+"，获取更多内容"+"</div>");
+	}
+	else if (one+two+three+four=="INFP") {
+		$('.result').show("6000");
+		$('.result').html("<div class='span_style col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12'>"+"您的性格类型为："
+		+"<span style='color:red;'>"+one+two+three+four+"(理想化诗人)：内倾、感觉、情感和知觉"+"</span>"+"<br/>"+"适宜职业：娱乐人士 演员 音乐家 编辑"+"<br/>"
+		+"想知道关于INFP(理想化诗人)的更多内容，请关注黑鲸校园，输入："+"<span style='color:red;'>"+one+two+three+four+"</span>"+"，获取更多内容"+"</div>");
+	}
+	else if (one+two+three+four=="INTP") {
+		$('.result').show("6000");
+		$('.result').html("<div class='span_style col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12'>"+"您的性格类型为："
+		+"<span style='color:red;'>"+one+two+three+four+"(学者型)：内倾、直觉、思维和知觉"+"</span>"+"<br/>"+"适宜职业：电脑工程师 天文工作者 物理学家 律师"+"<br/>"
+		+"想知道关于INTP(学者型)的更多内容，请关注黑鲸校园，输入："+"<span style='color:red;'>"+one+two+three+four+"</span>"+"，获取更多内容"+"</div>");
+	}
+	else if (one+two+three+four=="ESTP") {
+		$('.result').show("6000");
+		$('.result').html("<div class='span_style col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12'>"+"您的性格类型为："
+		+"<span style='color:red;'>"+one+two+three+four+"(乐天派)：外倾、感觉、思维和知觉"+"</span>"+"<br/>"+"适宜职业：调查员 导游 主持人 摄影师"+"<br/>"
+		+"想知道关于ESTP(乐天派)的更多内容，请关注黑鲸校园，输入："+"<span style='color:red;'>"+one+two+three+four+"</span>"+"，获取更多内容"+"</div>");
+	}
+	else if (one+two+three+four=="ESFP") {
+		$('.result').show("6000");
+		$('.result').html("<div class='span_style col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12'>"+"您的性格类型为："
+		+"<span style='color:red;'>"+one+two+three+four+"(天真的孩子)：外倾、感觉、情感和知觉"+"</span>"+"<br/>"+"适宜职业：演员 作家 导游 幼师"+"<br/>"
+		+"想知道关于ESFP(天真的孩子)的更多内容，请关注黑鲸校园，输入："+"<span style='color:red;'>"+one+two+three+four+"</span>"+"，获取更多内容"+"</div>");
+	}
+	else if (one+two+three+four=="ENFP") {
+		$('.result').show("6000");
+		$('.result').html("<div class='span_style col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12'>"+"您的性格类型为："
+		+"<span style='color:red;'>"+one+two+three+four+"(公关型)：外倾、直觉、情感和知觉"+"</span>"+"<br/>"+"适宜职业：营销经理 宣传人员 开发总裁 演讲家"+"<br/>"
+		+"想知道关于ENFP(公关型)的更多内容，请关注黑鲸校园，输入："+"<span style='color:red;'>"+one+two+three+four+"</span>"+"，获取更多内容"+"</div>");
+	}
+	else if (one+two+three+four=="ENTP") {
+		$('.result').show("6000");
+		$('.result').html("<div class='span_style col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12'>"+"您的性格类型为："
+		+"<span style='color:red;'>"+one+two+three+four+"(大发明家)：外倾、直觉、思维和知觉"+"</span>"+"<br/>"+"适宜职业：政府官员 公关经理 经纪人 投资人"+"<br/>"
+		+"想知道关于ENTP(大发明家)的更多内容，请关注黑鲸校园，输入："+"<span style='color:red;'>"+one+two+three+four+"</span>"+"，获取更多内容"+"</div>");
+	}
+	else if (one+two+three+four=="ESTJ") {
+		$('.result').show("6000");
+		$('.result').html("<div class='span_style col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12'>"+"您的性格类型为："
+		+"<span style='color:red;'>"+one+two+three+four+"(有原则的监督者)：外倾、感觉、思维和判断"+"</span>"+"<br/>"+"适宜职业：安保人员 会计 药品监管 保险"+"<br/>"
+		+"想知道关于ESTJ(有原则的监督者)的更多内容，请关注黑鲸校园，输入："+"<span style='color:red;'>"+one+two+three+four+"</span>"+"，获取更多内容"+"</div>");
+	}
+	else if (one+two+three+four=="ESFJ") {
+		$('.result').show("6000");
+		$('.result').html("<div class='span_style col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12'>"+"您的性格类型为："
+		+"<span style='color:red;'>"+one+two+three+four+"(执政官)：外倾、感觉、情感和判断"+"</span>"+"<br/>"+"适宜职业：政府人员 证监 公关 教师"+"<br/>"
+		+"想知道关于ESFJ(执政官)的更多内容，请关注黑鲸校园，输入："+"<span style='color:red;'>"+one+two+three+four+"</span>"+"，获取更多内容"+"</div>");
+	}
+	else if (one+two+three+four=="ENFJ") {
+		$('.result').show("6000");
+		$('.result').html("<div class='span_style col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12'>"+"您的性格类型为："
+		+"<span style='color:red;'>"+one+two+three+four+"(教育家)：外倾、感觉、情感和判断"+"</span>"+"<br/>"+"适宜职业：作家 制片人 教师 新闻记者"+"<br/>"
+		+"想知道关于ENFJ(教育家)的更多内容，请关注黑鲸校园，输入："+"<span style='color:red;'>"+one+two+three+four+"</span>"+"，获取更多内容"+"</div>");
+	}
+	else if (one+two+three+four=="ENTJ") {
+		$('.result').show("6000");
+		$('.result').html("<div class='span_style col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12'>"+"您的性格类型为："
+		+"<span style='color:red;'>"+one+two+three+four+"(领袖将军)：外倾、直觉、思维和判断"+"</span>"+"<br/>"+"适宜职业：高管 导演 创业者 经纪人"+"<br/>"
+		+"想知道关于ENTJ(领袖将军)的更多内容，请关注黑鲸校园，输入："+"<span style='color:red;'>"+one+two+three+four+"</span>"+"，获取更多内容"+"</div>");
+	}
 }
